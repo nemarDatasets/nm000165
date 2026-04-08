@@ -17,5 +17,8 @@
     },
     "group": {
         "Description": "Electrode group identifier (grid1 or grid2)."
+    },
+    "ch_description": {
+        "Description": "Description of what is measured on this channel."
     }
 }
