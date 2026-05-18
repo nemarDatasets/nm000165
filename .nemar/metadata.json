@@ -1,0 +1,132 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Agnese Grison": {
+      "orcid": "0009-0001-5981-3589",
+      "affiliations": [
+        {
+          "name": "Department of Bioengineering Imperial College  London UK"
+        }
+      ]
+    },
+    "Irene Mendez Guerra": {},
+    "Alexander Kenneth Clarke": {},
+    "Silvia Muceli": {
+      "orcid": "0000-0002-0310-1021",
+      "affiliations": [
+        {
+          "name": "Department of Bioengineering Imperial College  London UK"
+        },
+        {
+          "name": "Department of Electrical Engineering Chalmers University of Technology  Gothenburg Sweden"
+        }
+      ]
+    },
+    "Jaime Ibanez Pereda": {},
+    "Dario Farina": {
+      "orcid": "0000-0002-7883-2697",
+      "affiliations": [
+        {
+          "name": "Department of Bioengineering Imperial College  London UK"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1113/JP287913",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000165",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000165",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Huawei Technologies Research & Development (UK) Ltd."
+    },
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council (EPSRC) Doctoral Prize Fellowship"
+    },
+    {
+      "funder_name": "HybridNeuro (HORIZON-WIDERA-2021-ACCESS-03- 101079392)"
+    },
+    {
+      "funder_name": "NextGenerationEU/PRTR"
+    },
+    {
+      "funder_name": "UK Research and Innovation",
+      "award_number": "EP/S023283/1",
+      "award_title": "Centre for Doctoral Training in AI for Healthcare"
+    },
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/T020970/1",
+      "award_title": "Non-Invasive Single Neuron Electrical Monitoring (NISNEM Technology) Grant"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "101077693",
+      "award_title": "ECHOES (ERC Starting Grant)"
+    },
+    {
+      "funder_name": "Spanish Ministry of Science and Innovation",
+      "award_number": "CNS2022-135366",
+      "award_title": "Consolidación Investigadora grant"
+    }
+  ],
+  "title": "MUniverse Grison et al 2025",
+  "license": "CC0 BY 4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "emg"
+  ],
+  "resource_type_specific": "EMG Dataset",
+  "sizes": [
+    "2.9 GB (21 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "High-density surface electromyography (HDsEMG) recordings from the tibialis anterior muscle of one healthy subject during submaximal isometric ankle dorsiflexions at force levels ranging from 10 to 70 percent maximum voluntary contraction. The dataset comprises 128-channel recordings from two electrode arrays and includes labeled motor unit spike trains derived from concurrent invasive EMG recordings. This dataset supports investigation of motor unit recruitment and control strategies during graded voluntary contractions.",
+  "methods_description": "HDsEMG signals were recorded from the right tibialis anterior using two 64-electrode arrays (4 mm interelectrode distance, 13×5 configuration) during isometric ankle dorsiflexions at 10-70% MVC. Contractions consisted of trapezoidal force profiles with linear ramps at 5%/second and plateaus of 20s (≤30% MVC), 15s (35-40% MVC), or 10s (50-70% MVC), separated by 120s rest periods. Force was recorded simultaneously using a load cell connected to a commercial dynamometer. Motor unit spike trains were labeled from concurrent invasive EMG recordings.",
+  "keywords": [
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "motor units"
+    },
+    {
+      "term": "Muscle Contraction",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009119"
+    },
+    {
+      "term": "tibialis anterior"
+    },
+    {
+      "term": "isometric contraction"
+    },
+    {
+      "term": "high-density surface EMG"
+    }
+  ],
+  "source_hash": "c9cac6be9408f88edb737ad442e6e1748bd43932c4eb6233a445c42627588ac0"
+}
