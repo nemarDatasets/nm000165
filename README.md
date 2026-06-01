@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000165-blue)](https://doi.org/10.82901/nemar.nm000165)
+
 # Grison et al 2025: HDsEMG recordings
 
 BIDS-formatted version of a HDsEMG dataset corresponding to *[Grison et al. 2025](https://doi.org/10.1113/JP287913)*.
