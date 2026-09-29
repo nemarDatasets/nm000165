@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "MUniverse Grison et al 2025",
+  "description": "High-density surface EMG (HDsEMG) recordings from the right tibialis anterior of one healthy participant performing submaximal isometric ankle dorsiflexions at 10 to 70 percent of maximal voluntary contraction. Signals were acquired with two 64-electrode arrays (128 electrodes total), together with force recordings. The dataset also includes labeled motor unit spike trains derived from concurrent invasive EMG, and supports motor unit decomposition research.",
+  "methods_description": "The participant performed trapezoidal isometric ankle dorsiflexion contractions at 10, 15, 20, 25, 30, 35, 40, 50, 60 and 70 percent MVC, in randomized order, with 120 s rest between contractions and ramps at 5 percent per second. HDsEMG was recorded from the right tibialis anterior with two 64-electrode arrays (4 mm interelectrode distance, 13x5 configuration), and force was recorded with a load cell in series with a dynamometer pedal. Labeled motor unit spike trains were derived from concurrent invasive EMG and curated by an experienced investigator.",
+  "license": "CC0 BY 4.0",
+  "dataset_type": "raw",
   "authors": {
     "Agnese Grison": {
       "orcid": "0009-0001-5981-3589",
@@ -33,11 +38,33 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "high-density surface EMG"
+    },
+    {
+      "term": "motor unit decomposition"
+    },
+    {
+      "term": "tibialis anterior"
+    },
+    {
+      "term": "isometric contraction"
+    },
+    {
+      "term": "ankle dorsiflexion"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1113/JP287913",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000165",
@@ -45,9 +72,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000165",
+      "identifier": "https://nemar.org/dataset/nm000165",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.7910/DVN/ID1WNQ",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -58,42 +90,45 @@
       "funder_name": "Engineering and Physical Sciences Research Council (EPSRC) Doctoral Prize Fellowship"
     },
     {
-      "funder_name": "HybridNeuro (HORIZON-WIDERA-2021-ACCESS-03- 101079392)"
-    },
-    {
       "funder_name": "NextGenerationEU/PRTR"
     },
     {
       "funder_name": "UK Research and Innovation",
       "award_number": "EP/S023283/1",
-      "award_title": "Centre for Doctoral Training in AI for Healthcare"
+      "award_title": "UKRI Centre for Doctoral Training in AI for Healthcare"
     },
     {
       "funder_name": "Engineering and Physical Sciences Research Council",
-      "award_number": "EP/T020970/1",
-      "award_title": "Non-Invasive Single Neuron Electrical Monitoring (NISNEM Technology) Grant"
+      "award_title": "EPSRC Doctoral Prize Fellowship"
+    },
+    {
+      "funder_name": "European Union",
+      "award_number": "101079392",
+      "award_title": "HybridNeuro"
     },
     {
       "funder_name": "European Research Council",
       "award_number": "101077693",
-      "award_title": "ECHOES (ERC Starting Grant)"
+      "award_title": "ECHOES"
     },
     {
-      "funder_name": "Spanish Ministry of Science and Innovation",
+      "funder_name": "MCIN/AEI",
       "award_number": "CNS2022-135366",
-      "award_title": "Consolidación Investigadora grant"
+      "award_title": "Consolidación Investigadora"
+    },
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/T020970/1",
+      "award_title": "Non-Invasive Single Neuron Electrical Monitoring (NISNEM Technology)"
     }
   ],
-  "title": "MUniverse Grison et al 2025",
-  "license": "CC0 BY 4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EMG Dataset",
   "modalities": [
     "emg"
   ],
-  "resource_type_specific": "EMG Dataset",
   "sizes": [
-    "2.9 GB (21 files)"
+    "2.68 GB (21 files)"
   ],
   "formats": [
     ".edf",
@@ -102,31 +137,5 @@
     ".tsv",
     ".yml"
   ],
-  "description": "High-density surface electromyography (HDsEMG) recordings from the tibialis anterior muscle of one healthy subject during submaximal isometric ankle dorsiflexions at force levels ranging from 10 to 70 percent maximum voluntary contraction. The dataset comprises 128-channel recordings from two electrode arrays and includes labeled motor unit spike trains derived from concurrent invasive EMG recordings. This dataset supports investigation of motor unit recruitment and control strategies during graded voluntary contractions.",
-  "methods_description": "HDsEMG signals were recorded from the right tibialis anterior using two 64-electrode arrays (4 mm interelectrode distance, 13×5 configuration) during isometric ankle dorsiflexions at 10-70% MVC. Contractions consisted of trapezoidal force profiles with linear ramps at 5%/second and plateaus of 20s (≤30% MVC), 15s (35-40% MVC), or 10s (50-70% MVC), separated by 120s rest periods. Force was recorded simultaneously using a load cell connected to a commercial dynamometer. Motor unit spike trains were labeled from concurrent invasive EMG recordings.",
-  "keywords": [
-    {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
-    },
-    {
-      "term": "motor units"
-    },
-    {
-      "term": "Muscle Contraction",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009119"
-    },
-    {
-      "term": "tibialis anterior"
-    },
-    {
-      "term": "isometric contraction"
-    },
-    {
-      "term": "high-density surface EMG"
-    }
-  ],
-  "source_hash": "c9cac6be9408f88edb737ad442e6e1748bd43932c4eb6233a445c42627588ac0"
+  "source_hash": "978419fb17d08c67341d7d5f48444c27faf4fad91113d7082dc3b3df7c654ed6"
 }
